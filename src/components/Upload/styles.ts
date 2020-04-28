@@ -9,17 +9,17 @@ interface UploadProps {
 }
 
 const dragActive = css`
-  border-color: #12a454;
+  border-color: #50fa7b;
 `;
 
 const dragReject = css`
-  border-color: #e83f5b;
+  border-color: #ff5555;
 `;
 
 export const DropContainer = styled.div.attrs({
   className: 'dropzone',
 })`
-  border: 1.5px dashed #969cb3;
+  border: 1.5px dashed #bd93f9;
   border-radius: 5px;
   cursor: pointer;
 
@@ -33,9 +33,9 @@ export const DropContainer = styled.div.attrs({
 `;
 
 const messageColors = {
-  default: '#5636D3',
-  error: '#e83f5b',
-  success: '#12a454',
+  default: '#bd93f9',
+  error: '#ff5555',
+  success: '#50fa7b',
 };
 
 export const UploadMessage = styled.p`

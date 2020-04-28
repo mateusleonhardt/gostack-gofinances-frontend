@@ -5,11 +5,12 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #5636d3;
+  background: #44475a;
   padding: 30px 0;
 
   header {
     width: 1120px;
+    max-width: 100%;
     margin: 0 auto;
     padding: ${({ size }) => (size === 'small' ? '0 20px ' : '0 20px 150px')};
     display: flex;
